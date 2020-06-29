@@ -38,7 +38,9 @@ nav a {
 - Posição absoluta, em relação à pagina inteira: ```position: absolute```
  - Caso haja posicionamento absoluto de elementos dentro de outros, o externo (a caixa) deve ter um posicionamento também (relativo, no caso)
 - Cálculo automático das laterais da margem: ```margin: 0 auto```
-- Em geral, pode usar o margin: auto para blocos, inline-block como display, e o restante vai posicionando
+- Em geral, pode usar o ```margin: auto``` para blocos, ```inline-block``` como display, e o restante vai posicionando
+- Para ```display: inline-block``` funcionar, os elementos precisam estar um logo após o outro no HTML, sem espaço nem enter entre eles
+ - Usa vertical-align top para melhor posicionar
 - O navegador soma os pixels de posicionamento + a porcentagem
  - Se por exemplo, usar padding junto com width (%), ele irá somar os pixels do padding com a porcentagem. Para que isso não ocorra, usa-se ```boder-sizing: border-box```, assim o width fica por definitivo, e o padding está dentro desses %
 

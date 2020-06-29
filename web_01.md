@@ -67,6 +67,7 @@ em strong {
  - border: finalização do elemento (externo)
  - padding: espaçamento interno (se aumentar, em geral aumenta o tamanho do elemento)
  - margin: espaçamento externo da borda
+ - Preencher campo ```alt``` com a descrição da imagem
 
 ## Listas, DIVs e Header
 - ```<ul>``` Lista não ordenada
@@ -93,3 +94,4 @@ em strong {
  ```
  - Alinhamento vertical (vertical-align), por padrão o inline-block alinha pela base do item (imagem)
 - ```<header>``` tag semântica, cabeçalho da página, dentro do conteúdo (body). Define o conteúdo principal da página, em geral com ```<h1>```
+- ```line-height: x``` define espaçamento entre as linhas
